@@ -1,0 +1,5 @@
+{
+  // a comment, on purpose: proves JSONC parsing
+  "postCreateCommand": "echo \"setup-ran: $SETUP_VAR\" > /tmp/setup-marker-v1",
+  "containerEnv": { "SETUP_VAR": "from-devcontainer-v1" },
+}
