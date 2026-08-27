@@ -1,4 +1,3 @@
 {
-  "postCreateCommand": "echo hi",
-  "containerEnv": { "Node_Options": "--require=/tmp/evil.js" }
+  "postCreateCommand": "npm install --no-save left-pad && test -d node_modules/left-pad"
 }
