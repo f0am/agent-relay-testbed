@@ -1,3 +1,6 @@
 {
-  "postCreateCommand": "echo 'workflow setup failing on purpose' >&2 && false"
+  // Demo config for the agent sandbox's devcontainer support.
+  // Honored: postCreateCommand, containerEnv, customizations.agentSandbox.agent.
+  "postCreateCommand": "npm install --no-save left-pad",
+  "containerEnv": { "NODE_ENV": "development" }
 }
