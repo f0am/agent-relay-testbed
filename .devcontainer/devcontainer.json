@@ -1,4 +1,3 @@
 {
-  "postCreateCommand": "echo 'workflow-setup-ok' > /tmp/wf-marker",
-  "containerEnv": { "WF_VAR": "wf-value" }
+  "postCreateCommand": "echo 'workflow setup failing on purpose' >&2 && false"
 }
