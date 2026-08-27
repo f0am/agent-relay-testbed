@@ -1,3 +1,4 @@
 {
-  "postCreateCommand": "npm install --no-save left-pad && test -d node_modules/left-pad"
+  "postCreateCommand": "echo 'workflow-setup-ok' > /tmp/wf-marker",
+  "containerEnv": { "WF_VAR": "wf-value" }
 }
