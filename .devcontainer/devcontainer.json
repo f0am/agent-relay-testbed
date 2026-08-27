@@ -1,4 +1,3 @@
 {
-  "postCreateCommand": "echo ok > /tmp/marker-v2",
-  "customizations": { "agentSandbox": { "agent": "codex" } }
+  "postCreateCommand": 
 }
